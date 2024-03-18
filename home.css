@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body,html{
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-top: 20px;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Poppins", sans-serif;
+  
+  
+}
+
+/* Header Menu */
+
+.menui{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.location{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 65px;
+  
+}
+
+#nav{
+  margin-right: 5px;
+}
+
+
+
+/* Text */
+
+#Title{
+  font-size: 50px;
+  
+}
+
+#Subtitle{
+  font-size: 30px;
+  color:#667C8A;
+  margin-top: -40px;
+  font-weight: 500;
+}
+
+.Text{
+  margin-top: -50px;
+}
+
+
+/* Search Bar */
+
+.search{
+  height: 80px;
+  width: 100%;
+  border: 1px transparent solid;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px 10px rgb(229, 229, 229);
+  color: gray;
+}
+
+
+#searchicon{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#searchbar{
+  font-size: 25px;
+  color:#667C8A;
+}
+
+
+/* Food Cards */
+
+.fCards{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.FoodCard{
+  height: 240px;
+  width: 125px;
+  border: solid transparent 1px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 5px 5px 20px 10px rgb(229, 229, 229);
+  
+}
+
+.Carditems{
+  margin-top: 29px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  
+}
+
+#BurgerCard{
+  background-color: #C8161D;
+  color: white;
+  
+}
+
+
+/* Top Popular Foods */
+
+.TopMenu{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+#View{
+  color: #C8161D;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 35px;
+}
+
+
+#popular{
+  font-size: 30px;
+}
+
+
+
+/* Popular Foods */
+
+.MenuItem{
+  height: 405px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 10px 10px 45px 20px rgb(229, 229, 229);
+}
+
+.InnerMenuItem{
+  height: 300px;
+  border: 1px solid transparent;
+  border-radius:20px;
+  background-color: #C8161D ;
+  text-align: center;
+}
+
+#Foodinneritem{
+  margin-top: -100px;
+}
+
+
+.FoodChoices{
+  display: flex;
+  justify-content: space-between;
+}
+
+#FoodName1{
+font-weight: 600;
+font-size: 25px;
+}
+
+#FoodPrice{
+font-weight: 700;
+font-size: 23px;
+margin-top: 19px;
+}
+
+#FoodName2{
+  font-weight: 500;
+  color: #667C8A;
+  font-size: 25px;
+  margin-top: -15px;
+}
+
+
+
+/* Navigation */
+
+.navigation{
+ height: 100px;
+ border: solid 1px transparent;
+ margin-top: 81px;
+ margin-left: -40px;
+ margin-right: -40px;
+ border-radius: 0px 0px 30px 30px;
+ box-shadow: 5px 5px 10px 10px rgb(229, 229, 229) ;
+ 
+ 
+}
+
+
+
+.NavMenu{
+    display: flex;
+    justify-content: space-between;
+    
+} 
+
+.Home{
+  border: 1px solid transparent;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 21px;
+  font-weight: 500;
+  color: #667C8A;
+}
+
+.NavText {
+  margin-top: 5px;
+  color:#667C8A;
+}
+
+#HomeNav{
+  color:rgb(198, 0, 0) ;
+    
+}
+.NavText{
+    margin-top: 5px;
+    color: #C8161D;
+  }
+  
+  .NavText:hover{
+    color: #C8161D;
+  }
+  
+  .NavIcons:hover{
+    background-color: #C8161D;
+    
+  }

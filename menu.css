@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* background*/
+
+#background{
+    height: 2600px;
+    width: 2700px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    top: -30%;
+    left: -10%;
+    transform: translate(-50%, -0%);
+    rotate: 90deg;
+    box-shadow: 0px 0px 20px 5px rgb(205, 205, 205);
+} 
+
+
+/*Top Buttons*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerbuttons{
+    width: 80px;
+    height: 80px;
+    border: 1px solid transparent;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px 5px rgb(205, 205, 205);
+
+}
+
+
+/*Food Section*/
+
+.FoodItem{
+    text-align: center;
+    margin-top: 60px;
+}
+
+#FoodTitle{
+    font-size: 30px;
+}
+
+#FoodCaption{
+    font-size: 25px;
+    color: #435D6B;
+}
+
+#Food{
+    margin-top: 40px;
+
+}
+
+
+.FoodSizes{
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+/*Button Section*/
+
+.SizeButtons{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 35px;
+}
+
+#SmallButton{
+        box-shadow: 0px 0px 20px 5px rgb(205, 205, 205);
+}
+
+
+
+#MediumButton{
+     margin-top: 200px;
+     background-color: #C8161D;
+     border: 1px solid transparent;
+     color: white;
+}
+
+#LargeButton{
+    box-shadow: 0px 0px 20px 5px rgb(205, 205, 205);
+}
+
+
+/*Food Portion*/
+
+
+.FoodPortions{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+    
+}
+
+
+.PortionButtons{
+    height: 60px; 
+    width: 60px;
+    border: 1px solid transparent;
+    text-align: center;
+    align-items: center;
+    font-size: 26px;
+    border-radius: 100%;
+    background-color: #F27D82;
+}
+
+
+
+/*Pricing*/
+
+#AmountButton{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+.Pricing{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+
+
+#FinalPrice{
+    font-size: 25px;
+}
+
+.PriceAmount{
+    font-size: 40px;
+    margin-left: -1px;
+    font-weight: 600;
+
+}
+
+
+/* Cart*/
+
+.Cart{
+    height:90px;
+    width: 250px;
+    border: 1px solid transparent;
+    align-items: center;
+    text-align: center;
+    margin-right: -15px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #C8161D;
+}
+
+.CartText{
+    font-size: 25px;
+    margin-top: 5px;
+    color: white;
+
+}
+
+#Carticon{
+    position: relative;
+    top: 8px;
+}
